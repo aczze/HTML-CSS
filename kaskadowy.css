@@ -1,0 +1,187 @@
+﻿body {
+background-color: #CAC5B6;
+}
+
+div.tlo{
+position: relative;
+width: 1015px;
+height: 850px;
+margin-left:auto;
+margin-right:auto;
+}
+
+header.rejestracja{
+background-color:#b5b1a3;
+width:1015px; 
+height:20px; 
+font: 15px Sans serif;
+position:absolute; 
+top:0px;
+text-align:right; 
+border-bottom: 1px solid;	
+}
+
+header{
+background-color:#CAC5B6;
+width:1015px; 
+height:80px; 
+font: 20px Sans serif;
+position:absolute; 
+top:20px;
+text-align:center; 
+border-bottom: 1px solid;
+}
+
+  header.glowna{
+background-color:#a19d91;
+width:200px;
+height:35px;
+position: absolute;
+text-align:left;
+top: 0px;
+border-right: 1px solid;
+border-color: #222342;
+}
+
+
+nav.top{ 
+width:1015px;
+height:100px; 
+background-color:#CAC5B6;
+position: absolute; 
+top: 105px;
+z-index:0;
+padding-left: 0px;
+}
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 10;
+	padding: 5;
+ 
+}
+
+ul {
+	position: absolute;
+}
+
+ul li {
+	float: left;
+	border-width: 1px 1px 1px 1px;
+	border-style: groove;
+	border-color: #ffffff;
+
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 230.5px;
+	text-align: center;
+	padding: 15px 0;
+	font-weight: static;
+	background-color: #222342;
+	color: #CAC5B6;
+	
+	}
+
+ul a:hover  {
+	background-color: #CAC5B6;
+	color: #222342;
+    border-top: solid 1px;
+	border-left: solid 1.5px;
+	border-bottom: solid 1px;
+	border-right: solid 1.5px;
+	}
+
+
+  article{
+background-color:#b5b1a3;
+width:1015px;
+height:570px;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0px;
+top: 175px;
+overflow-y: hidden;
+overflow-x:hidden;
+}
+
+
+
+footer.dolny{ 
+width:1015px; 
+height:100px; 
+position:absolute; 
+text-align:center; 
+bottom: 0px;
+left: 0px;
+color:#000000;
+border-top: solid 1px;
+}
+
+
+#html5css3{
+width:127px; 
+height:42px;
+float: right;
+margin-top: 1px;
+}
+
+#logopwr{
+width:55px; 
+height:80px;
+float: left;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+p{
+float:left;
+font-size: small;
+}
+
+
+h4{
+font-family:"Georgia";
+font-size: 25px;
+font-style:  normal;
+letter-spacing: 3pt;
+color: #000000;
+float:right;
+}
+
+h2{
+font-family:"Tahoma";
+font-size: 14px;
+font-style:  normal;
+letter-spacing: 5pt;
+color: #000000;
+float:right;
+}
+
+
+div.kontakt_info{ 
+height:480px;
+width: 507.5px;
+position:absolute;
+top:45px;
+bottom:45px;
+left: 5px;
+padding-left: 7px;
+color: #ffffff;
+border-right: solid 1px;
+border-color: #ffffff;
+}
+
+div.kontakt_formularz{ 
+height:570px;
+width: 507.5px;
+position:absolute;
+top:65px;
+right: 5px;
+color: #ffffff;
+}
+
